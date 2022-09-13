@@ -2,9 +2,11 @@
 /**
  * _abs - compute the absolute value of the integer
  * @n: int type number
+ * Return: abosolute value of @n
  */
 int _abs(int)
 {
+int n;
 if (n < 0)
 {
 	return (n * -1);
