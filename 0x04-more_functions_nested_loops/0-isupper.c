@@ -1,18 +1,17 @@
 #include "main.h"
 /**
- * _isupper - checks for uppercase characte
- * @c: checking for uppercase
- * Return: Always 0
+ * _isupper - checks for upercase
+ * @c: parameter
+ * Return: 0 if successful
  */
 int _isupper(int c)
 {
-if (c == 'a')
+if (c >= 65 && c < 91)
 {
-	_putchar('1');
+	return (1);
 }
 else
 {
-	_putchar('0');
+	return (0);
 }
-return (0);
 }
