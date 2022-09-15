@@ -11,5 +11,5 @@ while (i <= n)
 	_putchar(95);
 	i++;
 }
-_putchar('/n');
+_putchar('\n');
 }
