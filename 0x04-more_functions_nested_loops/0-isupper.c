@@ -6,8 +6,8 @@
  */
 int _isupper(int c)
 {
-int c;
-if (isupper(c))
+char ch = "c";
+if (isupper(ch))
 {
 	_putchar('1');
 }
